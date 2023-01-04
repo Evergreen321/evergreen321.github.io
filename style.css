@@ -142,6 +142,14 @@ h3 {
   border-bottom: 2px solid #e0e0e0;
 }
 
+.prj-icon {
+  margin: 2px;
+}
+
+.prj-icon:hover {
+  transform: translateY(-2px);
+}
+
 .prj-info {
   display: flex;
   align-items: flex-start;
@@ -151,7 +159,14 @@ h3 {
 }
 
 .prj-title {
+  text-decoration: none;
+  color: #444;
   font-size: 30px;
+  font-weight: bold;
+}
+
+.prj-title:hover {
+  color: #fa7070;
 }
 
 .additional-info {
