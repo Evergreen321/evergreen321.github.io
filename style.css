@@ -142,6 +142,10 @@ h3 {
   border-bottom: 2px solid #e0e0e0;
 }
 
+.projects-list.sm {
+  gap: 80px;
+}
+
 .prj-icon {
   margin: 2px;
 }
