@@ -69,8 +69,8 @@ h2 {
 }
 
 .profile-photo {
-  width: 243px;
-  height: 243px;
+  width: 150px;
+  height: 150px;
   background-color: #eef1ff;
   border-radius: 50%;
   background-image: url("./img/DSC_0706.jpg");
@@ -78,11 +78,10 @@ h2 {
   background-size: cover;
 }
 
-.section-about-me {
+.about-me {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  font-size: 30px;
   margin-bottom: 30px;
 }
 
@@ -211,4 +210,72 @@ ion-icon {
 .copyright-text {
   font-size: 14px;
   text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767.98px) {
+  .container {
+    max-width: none;
+    padding: 0px 15px;
+  }
+
+  .main-header {
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 14px;
+    padding: 15px 0px;
+  }
+
+  .about-me {
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .btn-dwnld-resume {
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+
+  .projects-list {
+    display: block;
+  }
+
+  .prj-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .year {
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .prj-category {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .skills-list {
+    font-size: 20px;
+  }
 }
