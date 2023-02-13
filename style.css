@@ -196,6 +196,12 @@ h3 {
   font-size: 16px;
 }
 
+.prj-desc-progress {
+  font-size: 14px;
+  color: #444;
+  font-style: italic;
+}
+
 /* FOOTER */
 .contacts {
   margin-bottom: 30px;
